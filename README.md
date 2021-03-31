@@ -9,7 +9,7 @@ Vašou úlohou je naprogramovať oknovú aplikáciu v jazyku Java s pomocou kni�
 Po spustení aplikácie vygenerujte pomocou algoritmu [náhodného prehľadávania do hĺbky](https://www.baeldung.com/cs/maze-generation#dfs-maze) bludisko a vykreslite ho na canvas.
 Mriežka v ktorej generujete bludisko nemôže byť menšia ako 11x11 políčok (vrátane stien), pričom bludisko musí byť obohnané stenou (žiadna cesta v bludisku sa nemôže dotýkať okraju okna).
 
-Vo vygenerovanom bludisku zvoľte ľubovoľným spôsobom jeden začiatočný a jeden cieľový bod. Na začiatočný bod umiestnite hráčovu figúrku. Hráč sa môže v bludisku pohybovať 3 spôsobmi.
+Vo vygenerovanom bludisku zvoľte ľubovoľným spôsobom jeden začiatočný a jeden cieľový bod. Na začiatočný bod umiestnite hráčovu figúrku. Hráč sa môže v bludisku pohybovať 3 spôsobmi:
 * pomocou šípok na klávesnici, vždy o jedno políčko určeným smerom, pričom nemôže vsúpiť na políčko obsahujúce stenu.
 * pomocou myši. Po kliknutí na figúrku je ňou možné pohnúť ako vežou v šachu (t.j. ľubovoľný počet políčok zvyslo, alebo vodorovne). Cieľ cesty zvolí hráč druhým kliknutím myši, pričom je potrebné zvýrazniť políčka na ktoré sa hráč môže presunúť keď sa nad nimi nachádza myš. Pri pohybe takýmto spôsobom nie je možné preskočiť stenu bludiska.
 * pomocou tlačidiel na bočnom menu, predstavujúcich šípky. Pre tento pohyb platia rovnaké pravidlá, ako pre pohyb pomocou klávesnice
@@ -39,7 +39,7 @@ okrem iného:
 * vo svojom riešení môžete použiť knižnicu lombok a jej anotácie. Potrebná dependencia je už pridaná v _pom.xml_ súbore.
 
 ## Odovzdávanie
-Zadanie si naklonujte z repozitára zadania výhradne pomocou poskytnutej linky (cez GitHub Classroom, pokial si vygenerujete vlastný repozitár na profile pomocou tlačidla "Use this template" z template repozitára, my váš repozitár neuvidíme a nebudeme ho hodnotit!). Svoje vypracovanie nahrajte do pre vás vytvoreného repozitára pre toto zadanie pomocou programu Git (git commit + git push).
+Zadanie si naklonujte z repozitára zadania výhradne pomocou poskytnutej linky cez GitHub Classroom (pokiaľ si vygenerujete vlastný repozitár pomocou tlačidla "Use this template" z template repozitára, my váš repozitár neuvidíme a nebudeme ho hodnotiť!). Svoje vypracovanie nahrajte do pre vás vytvoreného repozitára pre toto zadanie pomocou programu Git (git commit + git push).
 Skontrolujte si, či sa váš repozitár nachádza pod skupinov **Interes-Group**, inak nemáme prístup ku vášmu repozitáru a zadanie sa nepovažuje za odovzdané. Vypracovanie môžete "pusho-vať" priebežne. Hodnotiť sa bude iba _master_ branch. Zadanie je nutné vypracovať do **23.4.2021 23:00**.
 
 V projekte upravujte iba súbory v priečinku _src/main_ a jeho podpriečinkoch. Ostatné súbory je upravovať zakázané (predovšetkým súbory _pom.xml_ a súbory obsahujúce github pipeline-y).
@@ -53,16 +53,16 @@ Your task is to create a java window application with the Swing library. The use
 * canvas
 * side menu (you can choose the location of this side menu freely)
 
-When the application starts generate a maze using the [randomized depth first search](https://www.baeldung.com/cs/maze-generation#dfs-maze) algorithm and draw it onto the canvas.
-The grid containing the maze must be at least 11x11 tiles (including wall tiles). The entire maze must be surrounded by walls (no paths in the maze can touch the borders of the window).
+When the application starts, generate a maze using the [randomized depth first search](https://www.baeldung.com/cs/maze-generation#dfs-maze) algorithm and draw it onto the canvas.
+The grid containing the maze must be at least 11x11 tiles large (including wall tiles). The entire maze must be surrounded by walls (no paths in the maze can touch the borders of the window).
 
 In the generated maze choose in any way a starting and a goal point. Place the player figure on the starting point. The player can move their figure in 3 ways:
 * by using the arrows keys on their keyboard. Always by one tile in the specified direction. They cannot enter a tile that contains a wall.
 * by using the mouse. When the player figure is clicked, it can be moved like a rook chess piece (i.e. any number of tiles in the horizontal, or vertical directions).
-The destination is chosen by a second mouse click. Tiles that can be moved to in this way must be highlighted when the mouse hovers over them. When moving in this manner, the player cannot jump over walls.
+The destination is chosen by a second mouse click. Tiles that can be moved to in this manner must be highlighted, when the mouse hovers over them. When moving in this manner, the player cannot jump over walls.
 * by using buttons on the side menu, that represent the arrow keys. The rules for moving in this manner are the same, as for the movement by the arrow keys on the keyboard.
 
-When the player reaches the point, the application should generate a new maze and the game starts over.
+When the player reaches the goal point, the application should generate a new maze and the game starts over.
 
 The side menu must contain:
 * a counter of successfully completed mazes
@@ -85,7 +85,7 @@ Including, but not limited to:
 * you can use the lombok library and its annotations in your solution. The neccessary dependency is already present in the _pom.xml_ file.
 
 ## Handing in the assigment
-Clone the assignment from the repository created from this template by the provided link ( with GitHub Classroom, if you create repository from template to your profile, we won't be able to see your repository and we won't be able to grade it!). Upload your solutions to your repository using the Git version control system (git commit + git push).
+Clone the assignment from the repository created from this template by the provided link trough GitHub Classroom (if you create your own repository with the "use this template" button, we won't be able to see your repository and we won't be able to grade it!). Upload your solutions to your repository using the Git version control system (git commit + git push).
 Make sure, that your repository was created under the **Interes-Group** group, otherwise we won't be able to access your repository, and the assignment will not be graded.
 You can push commits to the repository while you work - you don't have to push everything at once. Only the code in the _master_ branch will be graded. You have until **23.4.2021 23:00** to complete the assignment.
 
