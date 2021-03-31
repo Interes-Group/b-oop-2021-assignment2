@@ -11,8 +11,8 @@ Mriežka v ktorej generujete bludisko by nemôže byť menšia ako 11x11 políč
 
 Vo vygenerovanom bludisku zvoľte ľubovoľným spôsobom jeden začiatočný a jeden cieľový bod. Na začiatočný bod umiestnite hráčovu figúrku. Hráč sa môže v bludisku pohybovať 3 spôsobmi.
 * pomocou šípok na klávesnici, vždy o jedno políčko určeným smerom, pričom nemôže vsúpiť na políčko obsahujúce stenu.
-* pomocou myši. Po kliknutí na figúrku je ňou možné pohnúť ako vežou v šachu (t.j. ľubovoľný počet políčok zvyslo, alebo vodorovne). Cieľ cesty zvolí hráč druhým kliknutím myši, pričom je potrebné zvýrazniť políčka na ktoré sa hráč môže presunúť keď sa nad nimi nachádza myš. Pri bohybe takýmto spôsobom nie je možné preskočiť stenu bludiska.
-* pomocou tlačidiel na bočno menu, predstavujúcich šípky. Pre tento pohyb platia rovnaké pravidlá, ako pre pohyb pomocou klávesnice
+* pomocou myši. Po kliknutí na figúrku je ňou možné pohnúť ako vežou v šachu (t.j. ľubovoľný počet políčok zvyslo, alebo vodorovne). Cieľ cesty zvolí hráč druhým kliknutím myši, pričom je potrebné zvýrazniť políčka na ktoré sa hráč môže presunúť keď sa nad nimi nachádza myš. Pri pohybe takýmto spôsobom nie je možné preskočiť stenu bludiska.
+* pomocou tlačidiel na bočnom menu, predstavujúcich šípky. Pre tento pohyb platia rovnaké pravidlá, ako pre pohyb pomocou klávesnice
 
 Keď hráč dosiahne cieľ, vygenerujte nové bludisko a hra začína od začiatku.
 
@@ -36,11 +36,11 @@ okrem iného:
 * nepoužívajte nested classy,
 * vo vašich triedach nevytvárajte statické metódy ani nekonštantné statické premenné (v zadaní nie sú potrebné),
 * v hlavnej triede (main) nevytvárajte žiadnu logiku, iba vytvorte nový objekt,
-* vo svojom riešení môžete použiť knižnicu lomok a jej anotácie. Potrebná dependencia je už pridaná v _pom.xml_ súbore.
+* vo svojom riešení môžete použiť knižnicu lombok a jej anotácie. Potrebná dependencia je už pridaná v _pom.xml_ súbore.
 
 ## Odovzdávanie
-Zadanie si naklonujte z repozitára zadania výhradne pomocou poskytnutej linky. Svoje vypracovanie nahrajte do pre vás vytvoreného repozitára pre toto zadanie pomocou programu Git (git commit + git push).
-Skontrolujte si, či sa váš repozitár nachádza pod skupinov **Interes-Group**, inak nemáme prístup ku vášmu repozitáru a zadanie sa nepovažuje za odovzdané. Vypracovanie môžete "pusho-vať" priebežne. Hodnotiť sa bude iba _master_ branch. Zadanie je nutné vypracovať do **26.3.2021 23:00**.
+Zadanie si naklonujte z repozitára zadania výhradne pomocou poskytnutej linky (cez GitHub Classroom, pokial si vygenerujete vlastný repozitár na profile pomocou tlačidla "Use this template" z template repozitára, my váš repozitár neuvidíme a nebudeme ho hodnotit!). Svoje vypracovanie nahrajte do pre vás vytvoreného repozitára pre toto zadanie pomocou programu Git (git commit + git push).
+Skontrolujte si, či sa váš repozitár nachádza pod skupinov **Interes-Group**, inak nemáme prístup ku vášmu repozitáru a zadanie sa nepovažuje za odovzdané. Vypracovanie môžete "pusho-vať" priebežne. Hodnotiť sa bude iba _master_ branch. Zadanie je nutné vypracovať do **23.4.2021 23:00**.
 
 V projekte upravujte iba súbory v priečinku _src/main_ a jeho podpriečinkoch. Ostatné súbory je upravovať zakázané (predovšetkým súbory _pom.xml_ a súbory obsahujúce github pipeline-y).
 
@@ -85,9 +85,9 @@ Including, but not limited to:
 * you can use the lombok library and its annotations in your solution. The neccessary dependency is already present in the _pom.xml_ file.
 
 ## Handing in the assigment
-Clone the assignment from the repository created from this template by the provided link. Upload your solutions to your repository using the Git version control system (git commit + git push).
+Clone the assignment from the repository created from this template by the provided link ( with GitHub Classroom, if you create repository from template to your profile, we won't be able to see your repository and we won't be able to grade it!). Upload your solutions to your repository using the Git version control system (git commit + git push).
 Make sure, that your repository was created under the **Interes-Group** group, otherwise we won't be able to access your repository, and the assignment will not be graded.
-You can push commits to the repository while you work - you don't have to push everything at once. Only the code in the _master_ branch will be graded. You have until **26.3.2021 23:00** to complete the assignment.
+You can push commits to the repository while you work - you don't have to push everything at once. Only the code in the _master_ branch will be graded. You have until **23.4.2021 23:00** to complete the assignment.
 
 Only edit files in the _src/main_ folder or its sub-folders. You mustn't change any other files in the repository (especially the _pom.xml_ file, and the github pipeline files).
 
