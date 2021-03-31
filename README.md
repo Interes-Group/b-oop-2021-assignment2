@@ -7,7 +7,7 @@ Vašou úlohou je naprogramovať oknovú aplikáciu v jazyku Java s pomocou kni�
 * bočného menu (jeho umiestnenie si zvoľte sami)
 
 Po spustení aplikácie vygenerujte pomocou algoritmu [náhodného prehľadávania do hĺbky](https://www.baeldung.com/cs/maze-generation#dfs-maze) bludisko a vykreslite ho na canvas.
-Mriežka v ktorej generujete bludisko by nemôže byť menšia ako 11x11 políčok (vrátane stien), pričom bludisko musí byť obohnané stenou (žiadna cesta v bludisku sa nemôže dotýkať okraju okna).
+Mriežka v ktorej generujete bludisko nemôže byť menšia ako 11x11 políčok (vrátane stien), pričom bludisko musí byť obohnané stenou (žiadna cesta v bludisku sa nemôže dotýkať okraju okna).
 
 Vo vygenerovanom bludisku zvoľte ľubovoľným spôsobom jeden začiatočný a jeden cieľový bod. Na začiatočný bod umiestnite hráčovu figúrku. Hráč sa môže v bludisku pohybovať 3 spôsobmi.
 * pomocou šípok na klávesnici, vždy o jedno políčko určeným smerom, pričom nemôže vsúpiť na políčko obsahujúce stenu.
